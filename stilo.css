@@ -1,0 +1,80 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    background-color: beige;
+    width: 100%;
+}
+
+ul{
+    width: 50%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+header ul li{
+    margin: 20px;
+
+}
+
+img{
+    width: 180px;
+}
+h1{
+    font-size: 25px;
+    color: rgb(45, 38, 28);
+    background-color: rgb(246, 246, 223);
+    font-family: cursive;
+}
+
+p{
+    font-size: 15px;
+    color: black;
+    background-color: rgb(240, 173, 234);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#primero{
+    color: rgb(212, 32, 32);
+}
+
+.contenedor{
+    display: flex;
+    width: 100%;
+    background-color: rgb(143, 247, 247);
+    margin: 10px 0px 10px 0px;
+    height: 100%;
+    padding: 10px;
+    justify-content: center;
+
+}
+
+.contenedor img{
+    border-radius: 50%;
+}
+
+.contenedor p{
+    font-size: 25px;
+}
+
+.contenedor.caja {
+    justify-content: center;
+}
+
+#yo{
+    color: blue;
+
+}
+
+.yo{
+    font-size: large;
+    width: 30%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(55, 42, 27);
+    display: flex;
+    flex-direction: row-reverse;
+}
+.caja{
+    color: brown;
+}
